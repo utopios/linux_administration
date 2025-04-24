@@ -1,13 +1,17 @@
 ### **Exercise 1 Day 3**
 
 - Execute the following script:  
-  `https://utopios.solutions/scripts/generate_load.sh`
+    `https://utopios.solutions/scripts/generate_load.sh`
 
 ---
 
 1. **CPU Load**:
    - Identify the processes with high CPU usage. Which commands do you use to analyze CPU consumption?
    - How could you intervene on these processes to optimize CPU usage?
+
+```bash
+sudo renice +10 -p <PID>
+```
 
 ---
 
